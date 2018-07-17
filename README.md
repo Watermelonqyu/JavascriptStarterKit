@@ -1,0 +1,2 @@
+# JavascriptStarterKit
+Javascript Starter Kit
