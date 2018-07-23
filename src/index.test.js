@@ -1,6 +1,12 @@
 import {expect} from 'chai';
-import jsdom from 'jsdom';
 import fs from 'fs';
+
+var jsdom;
+try {
+    jsdom = require("jsdom/lib/old-api.js"); // jsdom >= 10.x
+} catch (e) {
+    jsdom = require("jsdom"); // jsdom <= 9.x
+}
 
 describe('Our first test', () => {
     it('should pass', () => {
