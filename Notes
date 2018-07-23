@@ -1,0 +1,8 @@
+*** Npm install
+    3 vulnerabilities
+    nsp, open, localtunnel
+    run "npm audit fix --force"
+    npm security check: "nsp check"
+
+*** npm start = npm run start
+    npm test = npm run test
