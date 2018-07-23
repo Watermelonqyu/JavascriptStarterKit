@@ -14,3 +14,6 @@
 
 *** eslintrc.json
     Rules: no-console (0: Off, 1: Warning, 2: Error)
+
+*** remove nsk check while starting the app
+    need to resolve all vulnerabilities after
