@@ -6,3 +6,11 @@
 
 *** npm start = npm run start
     npm test = npm run test
+
+
+*** use inline-source-map
+    add 'bugger;' to javascript code and the browser will pause while running into debugger
+
+
+*** eslintrc.json
+    Rules: no-console (0: Off, 1: Warning, 2: Error)
