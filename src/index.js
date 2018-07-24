@@ -14,7 +14,13 @@ getUsers().then(result => {
         </tr>`
     });
 
-    global.document.getElementById('users').innerHTML = usersBody;
+    if (global.document.getElementById('users')) {
+        global.document.getElementById('users').innerHTML = usersBody;
+    } else {
+        var tbody = global.document.createElement("TBODY");
+        tbody.innerHTML = usersBody;
+    }
+
 
     const deleteLinks = global.document.getElementsByClassName('deleteUser');
 
